@@ -62,7 +62,7 @@ jobs:
           dependency: ${{ matrix.flake }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
           pull-request-token: ${{ steps.generate-token.outputs.token }}
-          pull-request-author: "phillip-ground[bot] <phillip-ground[bot]@users.noreply.github.com>"
+          pull-request-author: "sigprof[bot] <108069352+sigprof[bot]@users.noreply.github.com>"
           pull-request-labels: dependencies,autorebase:opt-in
           automerge: true
           delete-branch: true
